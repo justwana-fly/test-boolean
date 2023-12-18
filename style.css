@@ -1,0 +1,84 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+   
+    
+    
+}
+section {
+    
+    padding:0 100px;
+    background: url(https://i.pinimg.com/originals/a7/57/21/a75721447513ce25c0704263d547efc7.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+
+.box 
+  {
+    position: relative;
+    max-width: 1000px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+
+ 
+  .box h2 
+    {
+    margin:0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    color:#044463;
+    }
+ 
+ 
+   .box p 
+     {  
+    margin:0 ;
+    padding: 0;
+    font-size: 18px;
+    
+     }
+
+ img {
+       width: 350px; 
+       position: relative;left: 250px;
+       
+      
+    }
+    
+    
+ 
+
+ .sfondo-button {
+    
+    background-color: rgb(88, 182, 211);
+    text-align: center;
+    width: 860px;
+    line-height: 35px;
+   
+    }
+
+    h3 {font-size: 25px;}
+    strong {color: black;}
+
+    .batteria-orange {background-color: orange;
+      width: 350px;
+      border-radius: 25px;
+    color: orange;}
+
+    .batteria-green {background-color: green;
+      width: 600px;
+      border-radius: 25px;
+    color: green;}
+
+    .batteria-red {background-color:red;
+      width: 150px;
+      border-radius: 25px;
+    color: red;}
